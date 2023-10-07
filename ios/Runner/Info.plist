@@ -47,5 +47,17 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	 <!-- permissions -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Please grant photo gallery access</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Please grant camera access</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Please grant microphone access</string>
+    <!-- end permissions -->
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 </dict>
 </plist>

@@ -1,16 +1,28 @@
 # photo_redactor
 
-A new Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Используемый стэк: 
+1. BloC - для работы с локальной бд 
+2. ChangeNotifier - для работы с состояниями и переменными на уровне Presentation 
+3. GetIt - локатор 
+4. Hive - локальная БД 
+5. BitMap - редактор фото 
+6. PhotoManager - для работы с альбомами и фото 
+7. permissionHandler - запрос разрешений на андроиде
 
-A few resources to get you started if this is your first Flutter project:
+Функционал: 
+1. Выбор фото из альбомов
+2. Сделать фото с помощью камеры 
+3. Редактирование изображения 
+4. Просмотр "до - после" (нужно ЗАЖАТЬ иконку глаза)
+5. шаг назад
+6. N шагов назад (нужно ЗАЖАТЬ иконку "шаг назад" )
+7. сохранить на устройстве - сохраняет изображение в папку downloads на андроиде, и корень на ios 
+8. сохранить в приложении - так же сохраняет изображение на устройстве, но добавляет сохранение в локальную базу данных с историей действий
+9. Драйвер - 2 кнопки: 
+    1. "мои работы" открывает список сохраненных в приложении работ. при тапе открывает изображение и подтягивает всю историю изменений
+    2. "рабочее пространство" Сбрасывает холст до изначального состояния и перенаправляет на него, работа с нуля 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Релизный файл лежит в корне, его можно скачать отдельно.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
