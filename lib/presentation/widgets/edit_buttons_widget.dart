@@ -28,13 +28,13 @@ class EditButtonsWidget extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: SizedBox(
-        width: MediaQuery.of(context).size.width - 51,
+        width: MediaQuery.of(context).size.width - 52,
         child: Row(
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             SizedBox(
-              width: 25.w,
+              width: 24.w,
             ),
             Expanded(
               child: ElevatedButton(
@@ -46,8 +46,8 @@ class EditButtonsWidget extends StatelessWidget {
                   onPressed: flipHImage,
                   child: Image.asset(
                     'assets/png/flip_icon.png',
-                    width: 30.h,
-                    height: 50.h,
+                    width: 55.w,
+                    height: 70.h,
                     color: Colors.white,
                   )),
             ),
@@ -64,8 +64,8 @@ class EditButtonsWidget extends StatelessWidget {
                   onPressed: contrastImage,
                   child: Image.asset(
                     'assets/png/contrast_icon.png',
-                    width: 30.h,
-                    height: 50.h,
+                    width: 55.w,
+                    height: 70.h,
                     color: Colors.white,
                   )),
             ),
@@ -82,8 +82,8 @@ class EditButtonsWidget extends StatelessWidget {
                   onPressed: brightnessImage,
                   child: Image.asset(
                     'assets/png/brightness_icon.png',
-                    width: 30.h,
-                    height: 50.h,
+                    width: 55.w,
+                    height: 70.h,
                     color: Colors.white,
                   )),
             ),
@@ -100,8 +100,8 @@ class EditButtonsWidget extends StatelessWidget {
                   onPressed: adjustColorImage,
                   child: Image.asset(
                     'assets/png/opacity_icon.png',
-                    width: 30.h,
-                    height: 50.h,
+                    width: 55.w,
+                    height: 70.h,
                     color: Colors.white,
                   )),
             ),
@@ -118,8 +118,8 @@ class EditButtonsWidget extends StatelessWidget {
                   onPressed: rotateClockwiseImage,
                   child: Image.asset(
                     'assets/png/rotate_left_icon.png',
-                    width: 30.h,
-                    height: 50.h,
+                    width: 55.w,
+                    height: 70.h,
                     color: Colors.white,
                   )),
             ),
@@ -136,8 +136,8 @@ class EditButtonsWidget extends StatelessWidget {
                   onPressed: rotateCounterClockwiseImage,
                   child: Image.asset(
                     'assets/png/rotate_right_icon.png',
-                    width: 30.h,
-                    height: 50.h,
+                    width: 55.w,
+                    height: 70.h,
                     color: Colors.white,
                   )),
             ),

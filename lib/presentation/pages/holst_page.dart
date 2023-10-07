@@ -195,10 +195,10 @@ class _HolstPageState extends State<HolstPage>
             ),
             SizedBox(
               width: 300.w,
-              height: 60.h,
+              height: 100.h,
               child: TextField(
                 decoration: InputDecoration(
-                    contentPadding: EdgeInsets.zero,
+                    contentPadding: const EdgeInsets.only(left: 10),
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10))),
                 keyboardType: TextInputType.phone,
@@ -235,10 +235,10 @@ class _HolstPageState extends State<HolstPage>
             ),
             SizedBox(
               width: 500.w,
-              height: 60.h,
+              height: 100.h,
               child: TextField(
                   decoration: InputDecoration(
-                      contentPadding: EdgeInsets.zero,
+                      contentPadding: const EdgeInsets.only(left: 10),
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10))),
                   keyboardType: TextInputType.text,
